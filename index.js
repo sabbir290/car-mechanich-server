@@ -5,11 +5,8 @@ const cors = require('cors');
 require('dotenv').config()
 
 
-// carMechanic
-// 
-
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 // middleWare
 
